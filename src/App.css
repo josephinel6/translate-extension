@@ -1,5 +1,63 @@
-.App {
+.translate-main {
   text-align: center;
+  align-items: center;
+  /* background-color: blue; */
+}
+
+.textbox {
+  display: inline-block;
+  border: #388697;
+  border-style: solid;
+  border-width: 1px;
+  background-color: white;
+  height: 80px;
+  width: 40%;
+  text-align: start;
+  align-items: start;
+  padding: 10px;
+  margin: 2px;
+  font-size: medium;
+  font-family: sans-serif;
+  vertical-align: top;
+  color: black;
+  border-radius: 0.75em;
+}
+
+#translate {
+  border: none;
+  margin-top: 10px;
+  height: 40px;
+  width: 105px;
+  color: white;
+  background-color: #388697;
+  border-radius: 0.5em;
+}
+
+#header {
+  margin-bottom: 5px;
+  margin-top: 30px;
+}
+
+#input {}
+
+#output {
+  color: black;
+}
+
+#language-div {
+  margin-bottom: -5px;
+  /* margin-bottom: 1px; */
+  font-size: medium;
+}
+
+#language-select-label {
+  font-size: 1.1em;
+}
+
+#language-select {
+  margin-left: 5px;
+  /* border-radius: 0.9em; */
+  padding: 2px;
 }
 
 .App-logo {
@@ -13,17 +71,6 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
 .App-link {
   color: #61dafb;
 }
@@ -32,6 +79,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
